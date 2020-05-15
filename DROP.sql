@@ -1,6 +1,8 @@
-DROP TABLE IF EXISTS [Pracownik]
+DROP TABLE IF EXISTS [Akcja]
 
 GO
+
+
 DROP TABLE IF EXISTS [Maszyna]
 
 GO
@@ -10,9 +12,7 @@ GO
 DROP TABLE IF EXISTS [Nawoz]
 
 GO
-DROP TABLE IF EXISTS [Akcja]
 
-GO
 DROP TABLE IF EXISTS [Nasiona]
 
 GO
@@ -23,5 +23,8 @@ DROP TABLE IF EXISTS [Roslina]
 
 GO
 DROP TABLE IF EXISTS [Uzytkownicy]
+
+GO
+DROP TABLE IF EXISTS [Pracownik]
 
 GO

@@ -1,3 +1,3 @@
-insert into Uzytkownicy values (1,'admin','admin','admin');
-insert into Uzytkownicy values (2,'user','user','user');
-insert into Uzytkownicy values (3,'owner','owner','owner');
+insert into Uzytkownicy values ('admin','admin','admin');
+insert into Uzytkownicy values ('user','user','user');
+insert into Uzytkownicy values ('owner','owner','owner');

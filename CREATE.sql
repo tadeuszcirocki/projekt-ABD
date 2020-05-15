@@ -1,5 +1,5 @@
 CREATE TABLE [Pracownik] (
-	ID int NOT NULL,
+	ID int identity NOT NULL,
 	Imie varchar(255) NOT NULL,
 	Nazwisko varchar(255) NOT NULL,
 	Pesel int NOT NULL,
@@ -11,7 +11,7 @@ CREATE TABLE [Pracownik] (
 )
 GO
 CREATE TABLE [Maszyna] (
-	ID int NOT NULL,
+	ID int identity NOT NULL,
 	Rodzaj varchar(255) NOT NULL,
 	Pojemnosc_silnika float NOT NULL,
 	KM int NOT NULL,
@@ -25,7 +25,7 @@ CREATE TABLE [Maszyna] (
 )
 GO
 CREATE TABLE [Pole] (
-	ID int NOT NULL,
+	ID int identity NOT NULL,
 	Rozmiar float NOT NULL,
 	Roslina_ID int NOT NULL,
 	Gleba varchar(255) NOT NULL,
@@ -37,7 +37,7 @@ CREATE TABLE [Pole] (
 )
 GO
 CREATE TABLE [Nawoz] (
-	ID int NOT NULL,
+	ID int identity NOT NULL,
 	Rodzaj varchar(255) NOT NULL,
 	Iloœæ float NOT NULL,
 	Data_waznosci date NOT NULL,
@@ -49,7 +49,7 @@ CREATE TABLE [Nawoz] (
 )
 GO
 CREATE TABLE [Akcja] (
-	ID bigint NOT NULL,
+	ID bigint identity NOT NULL,
 	Rodzaj varchar(255) NOT NULL,
 	Data date NOT NULL,
 	Pracownik_ID int NOT NULL,
@@ -65,7 +65,7 @@ CREATE TABLE [Akcja] (
 )
 GO
 CREATE TABLE [Nasiona] (
-	ID int NOT NULL,
+	ID int identity NOT NULL,
 	data_wa¿noœci date NOT NULL,
 	Ilosc int NOT NULL,
 	Rodzaj varchar(255) NOT NULL,
@@ -77,7 +77,7 @@ CREATE TABLE [Nasiona] (
 )
 GO
 CREATE TABLE [Silos] (
-	ID int NOT NULL,
+	ID int identity NOT NULL,
 	Pojemnosc float NOT NULL,
 	Czy_wolny bit NOT NULL,
 	Zapelnienie int NOT NULL,
@@ -90,7 +90,7 @@ CREATE TABLE [Silos] (
 )
 GO
 CREATE TABLE [Roslina] (
-	ID int NOT NULL,
+	ID int identity NOT NULL,
 	Rodzaj varchar(255) NOT NULL,
 	Nazwa varchar(255) NOT NULL,
 	Ile_rosnie int NOT NULL,
@@ -102,7 +102,7 @@ CREATE TABLE [Roslina] (
 )
 GO
 CREATE TABLE [Uzytkownicy] (
-	ID int NOT NULL,
+	ID int identity NOT NULL,
 	Login varchar(255) NOT NULL,
 	Haslo varchar(255) NOT NULL,
 	Typ_uzytkownika varchar(255) NOT NULL,
