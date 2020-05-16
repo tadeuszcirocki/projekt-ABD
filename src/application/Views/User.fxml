@@ -16,15 +16,10 @@
         <menus>
           <Menu mnemonicParsing="false" text="Otwórz tabelę">
             <items>
-                  <MenuItem mnemonicParsing="false" onAction="#tablePracownik" text="Pracownik" />
               <MenuItem mnemonicParsing="false" onAction="#tableNasiona" text="Nasiona" />
-                  <MenuItem mnemonicParsing="false" onAction="#tableAkcja" text="Akcja" />
-                  <MenuItem mnemonicParsing="false" onAction="#tableMaszyna" text="Maszyna" />
                   <MenuItem mnemonicParsing="false" onAction="#tableSilos" text="Silos" />
                   <MenuItem mnemonicParsing="false" onAction="#tableNawoz" text="Nawoz" />
                   <MenuItem mnemonicParsing="false" onAction="#tableRoslina" text="Roslina" />
-                  <MenuItem mnemonicParsing="false" onAction="#tablePole" text="Pole" />
-                  <MenuItem mnemonicParsing="false" onAction="#tableUzytkownicy" text="Uzytkownicy" />
             </items>
           </Menu>
         </menus>

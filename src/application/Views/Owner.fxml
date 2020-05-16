@@ -24,7 +24,6 @@
                   <MenuItem mnemonicParsing="false" onAction="#tableNawoz" text="Nawoz" />
                   <MenuItem mnemonicParsing="false" onAction="#tableRoslina" text="Roslina" />
                   <MenuItem mnemonicParsing="false" onAction="#tablePole" text="Pole" />
-                  <MenuItem mnemonicParsing="false" onAction="#tableUzytkownicy" text="Uzytkownicy" />
             </items>
           </Menu>
         </menus>
