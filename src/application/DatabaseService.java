@@ -34,9 +34,11 @@ public class DatabaseService {
 			while (result.next()) {
 				typ = result.getString("Typ_uzytkownika");
 			}
+			if (typ == null)
+				return "èle";
 			return typ;
 		} catch (SQLException e) {
-			e.printStackTrace();
+			// e.printStackTrace();
 			return "èle";
 		}
 	}

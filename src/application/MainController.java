@@ -50,7 +50,6 @@ public class MainController {
 		String typ = DatabaseService.LoggingReturnsType(txtUserName.getText(), txtPassword.getText());
 		if (typ.equals("admin")) {
 			CreateScene("Admin");
-			// CreateTableScene("Pole");
 			stage.close();
 		} else if (typ.equals("user")) {
 			CreateScene("User");
